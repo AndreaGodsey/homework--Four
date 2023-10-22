@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #ADD8e6;
+}
+nav .nava {
+  text-decoration: none;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav .nava {
+    margin-left: 5px;
+  }
+}
+.formexamples {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(90, 90, 90, 0.5)), to(rgba(90, 90, 90, 0.5))), url(../images/formexamples.jpg);
+  background-image: linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)), url(../images/formexamples.jpg);
+  width: 100%;
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.formexamples .callout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20px;
+}
+.formexamples .callout .callouttitle {
+  font-size: 150px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .formexamples .callout .callouttitle {
+    font-size: 120px;
+  }
+}
+.form {
+  margin: 50px;
+}
+.form .input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  height: 30px;
+  background-color: #ADD8e6;
+}
+.form .label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.form .submitbutton {
+  font-size: 20px;
+  padding: 20px 20px;
+  background-color: #ADD8e6;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.form .editbutton {
+  font-size: 20px;
+  padding: 20px 20px;
+  background-color: #ADD8e6;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .form .submitbutton {
+    width: 35%;
+  }
+  .form .editbutton {
+    width: 35%;
+  }
+}
+.containerlogin .contactform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.containerlogin .contactform .titlelogin {
+  padding-bottom: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+.containerlogin .contactform .titlecreate {
+  padding-bottom: 43px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+.containerlogin .contactform .textFields {
+  width: 80%;
+  height: 70px;
+  margin-bottom: 21px;
+  border: none;
+  background-color: #ADD8e6;
+}
+.containerlogin .contactform .contactboxes {
+  width: 470px;
+  height: 600px;
+  margin-top: 160px;
+  padding-left: 40px;
+}
+.containerlogin .contactform .contactboxes .submitbutton {
+  font-size: 20px;
+  padding: 20px 20px;
+  background-color: #ADD8e6;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .containerfive .contactform {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .containerfive .contactform .sendmessagebutton {
+    width: 35%;
+  }
+}
