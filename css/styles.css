@@ -35,7 +35,7 @@ nav .nava {
   font-size: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -85,7 +85,7 @@ nav .nava {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .formexamples .callout .callouttitle {
     font-size: 120px;
   }
@@ -181,14 +181,20 @@ nav .nava {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 800px) {
-  .containerfive .contactform {
+@media screen and (max-width: 960px) {
+  .containerlogin {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .containerfive .contactform .sendmessagebutton {
+  .containerlogin .contactform {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .containerlogin .submitbutton {
     width: 35%;
   }
 }
